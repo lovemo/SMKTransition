@@ -1,11 +1,11 @@
 # SMKTransition
 SMKTransition - custom modal animation
 
-```swfit
-      let test = TestViewController()
-      test.modalPresentationStyle = .custom
-      test.transitioningDelegate = Transition.shareManager()
-      present(test, animated: true, completion: nil)
+```swift
+let test = TestViewController()
+test.modalPresentationStyle = .custom
+test.transitioningDelegate = Transition.shareManager()
+present(test, animated: true, completion: nil)
 ```
 ---
 
